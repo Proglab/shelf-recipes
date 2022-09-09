@@ -1,0 +1,23 @@
+{
+  "manifests": {
+    "shelf-utilities/api-crf-client": {
+      "manifest": {
+        "bundles": {
+          "ShelfUtilities\\ApiCrfClientBundle\\ApiCrfClientBundle": [
+            "all"
+          ]
+        },
+        "copy-from-package": {
+          "src/Resources/config/packages/": "%CONFIG_DIR%/packages/"
+        },
+        "env": {
+          "APICRFCLIENT_KEY": "<key>",
+          "APICRFCLIENT_SECRET": "<secret>",
+          "APICRFCLIENT_LINK": "<link>",
+          "APICRFCLIENT_VERSION": "v1"
+        }
+      },
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff22"
+    }
+  }
+}

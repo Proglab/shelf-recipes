@@ -1,7 +1,9 @@
 {
   "recipes": {
     "shelf-utilities/api-crf-client": [
-      "0.0"
+      "0.0",
+      "5.6",
+      "6.1"
     ]
   },
   "branch": "master",

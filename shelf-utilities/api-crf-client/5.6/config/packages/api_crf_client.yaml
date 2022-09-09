@@ -1,0 +1,12 @@
+parameters:
+    api_crf_client_key: '%env(APICRFCLIENT_KEY)%'
+    api_crf_client_secret: '%env(APICRFCLIENT_SECRET)%'
+    api_crf_client_link: '%env(APICRFCLIENT_LINK)%'
+    api_crf_client_api_version: '%env(APICRFCLIENT_VERSION)%'
+
+
+api_crf_client:
+    key: "%api_crf_client_key%"
+    secret: "%api_crf_client_secret%"
+    link: "%api_crf_client_link%"
+    api_version: "%api_crf_client_api_version%"
