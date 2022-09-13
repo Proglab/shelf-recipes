@@ -4,6 +4,11 @@
       "0.0",
       "5.6",
       "6.1"
+    ],
+    "shelf-utilities/selligent-client-bundle": [
+      "1.0",
+      "5.6",
+      "6.1"
     ]
   },
   "branch": "master",

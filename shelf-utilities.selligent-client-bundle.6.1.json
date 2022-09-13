@@ -1,0 +1,25 @@
+{
+  "manifests": {
+    "shelf-utilities/selligent-client-bundle": {
+      "manifest": {
+        "bundles": {
+          "ShelfUtilities\\SelligentClientBundle\\SelligentClientBundle": [
+            "all"
+          ]
+        },
+        "copy-from-package": {
+          "src/Resources/config/packages/": "%CONFIG_DIR%/packages/"
+        },
+        "env": {
+          "APISELLIGENTCLIENT_INDIVIDUAL_URL": "<individual_url>",
+          "APISELLIGENTCLIENT_BROADCAST_URL": "<broadcast_url>",
+          "APISELLIGENTCLIENT_LOGIN": "<login>",
+          "APISELLIGENTCLIENT_PASSWORD": "<password>",
+          "APISELLIGENTCLIENT_MASTER_LIST": "<master_list_id>",
+          "APISELLIGENTCLIENT_ACTIONS_LIST": "<actions_list_id>"
+        }
+      },
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff22"
+    }
+  }
+}
